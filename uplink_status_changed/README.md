@@ -2,11 +2,11 @@
 
 ## Introduction
 
-    In my previous job, there was an incident handled by the monitoring area (NOC - First Support) that was a bit annoying and repetitive. They received the incident ticket (Uplink Status Changed) and basically closed it after a quick look at the Meraki Dashboard website; rarely did they actually work on a troubleshooting case where the Internet link was down, so 90% of the time it was a "false positive."
+In my previous job, there was an incident handled by the monitoring area (NOC - First Support) that was a bit annoying and repetitive. They received the incident ticket (Uplink Status Changed) and basically closed it after a quick look at the Meraki Dashboard website; rarely did they actually work on a troubleshooting case where the Internet link was down, so 90% of the time it was a "false positive."
 
-    So they brought the case to me, asking if there was a way to check if the link was really down and, if so, move the incident ticket to the queue where they work in Autotask. In the case of a "false positive" (the link is up), I would just close the ticket, providing evidence in the ticket description.
+So they brought the case to me, asking if there was a way to check if the link was really down and, if so, move the incident ticket to the queue where they work in Autotask. In the case of a "false positive" (the link is up), I would just close the ticket, providing evidence in the ticket description.
 
-    Here's the solution I came up with. It was my first Python script in the company, so don't judge me too harshly — I was, and still am, learning to code XD
+Here's the solution I came up with. It was my first Python script in the company, so don't judge me too harshly — I was, and still am, learning to code XD
 
 
 ## AutoTaskApi.py - The MakeAutoTaskApiCall Class
